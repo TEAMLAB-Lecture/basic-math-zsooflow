@@ -97,5 +97,5 @@ def get_median(number_list):
     if length % 2 == 1:
         median = number_list[length//2]
     else:
-        median = (number_list[length/2 - 1]+number_list[length/2]) / 2
+        median = (number_list[length//2 - 1]+number_list[length//2]) / 2
     return median
